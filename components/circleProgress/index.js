@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styles from './styles';
 import {
   SafeAreaView,
@@ -22,16 +22,18 @@ const Button = ({ onPress, label, active }) => (
 const CircleProgress = () => {
     const [running, setRunning] = useState(false);
     const [sectionActive, setSectionActive] = useState(0);
-    const [subTitulo, setSubTitulo] = useState('Inhale')
+    const [subTitulo, setSubTitulo] = useState('Inhale');
+
     useEffect(() => {
         progressRef.current.pause();
-    }, [])
+    }, []);
     
     const progressRef = useRef(null);
   
     const setSubT = (index) => {
-        setSubTitulo(index)
-    }
+        setSubTitulo(index);
+    };
+
     return (
         <SafeAreaView style={styles.container}>
             <Text style={styles.subTitle}>

@@ -27,5 +27,7 @@ export default StyleSheet.create({
     },
     imageView: {
       alignSelf: 'center',
+      zIndex:5000,
+      top:-150
   }
 });
