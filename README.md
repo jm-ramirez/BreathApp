@@ -8,7 +8,7 @@ To install and run this proyect just type and execute
 npm install
 ```
 
-###Running your React Native application
+### Running your React Native application
 Step 1: Start Metro
 ```bash
 npx react-native start
