@@ -1,5 +1,5 @@
 
-import { StyleSheet, PixelRatio } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     circle: {
@@ -21,19 +21,11 @@ export default StyleSheet.create({
       opacity:0.4
     },
     circle3: {
-      borderColor:'#ffffff',
-      borderWidth:4,
       position: "absolute",
       top: 170,
-      width: 220,
-      height: 220,
-      borderRadius: 110,
       opacity:0.4
     },
     imageView: {
       alignSelf: 'center',
-    // backgroundColor:'rgba(15, 16, 32, 0.5)'
-    //opacity:
-      //width:200
   }
 });
