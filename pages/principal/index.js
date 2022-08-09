@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, ScrollView } from 'react-native';
+import { Text } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import style from './styles';
 import { Circle } from "../../components/circle";

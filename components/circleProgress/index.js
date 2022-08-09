@@ -60,7 +60,6 @@ const CircleProgress = () => {
             }}
             onAnimationComplete={() => {
                 setSubTitulo('Inhale');
-                console.log('callback');
                 progressRef.current.reAnimate();
                 progressRef.current.pause();
                 setRunning(false)
