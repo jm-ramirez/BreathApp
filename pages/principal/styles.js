@@ -10,7 +10,7 @@ export default StyleSheet.create({
       position: 'absolute',
       width: '100%',
       top: 75,
-      fontFamily: 'BRHendrix-Regular',
+      fontFamily: 'BRHendrix-SemiBold',
       fontWeight:'600',
       fontSize:20,
       textAlign:'center',
