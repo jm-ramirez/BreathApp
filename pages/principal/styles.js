@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, PixelRatio } from 'react-native';
 
 export default StyleSheet.create({
   linearGradient: {
@@ -9,11 +9,13 @@ export default StyleSheet.create({
   title: {
       position: 'absolute',
       width: '100%',
-      top: '17.57%',
+      top: 75,
       fontFamily: 'BRHendrix-Regular',
       fontWeight:'600',
       fontSize:20,
       textAlign:'center',
-      color:'#FFFFFF'
+      color:'#FFFFFF',
+      // lineHeight: 121.4%
+      letterSpacing: -0.03
   }
 });
