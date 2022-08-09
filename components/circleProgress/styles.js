@@ -58,5 +58,10 @@ export default StyleSheet.create({
     color:'#FFFFFF',
     // lineHeight: 121.4%
     letterSpacing: -0.03
+},
+imageView: {
+  alignSelf: 'center',
+  zIndex:5000,
+  top:-318
 }
 });

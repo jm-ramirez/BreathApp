@@ -14,8 +14,7 @@ export const Circle = () => {
         </View>
         {/* <View  style={ style.circle3 }>
         </View>   */}
-        <CircleProgress/>      
-        <Image source={ LogoDisabled } style={style.imageView} fill="#fff" /> 
+        <CircleProgress/>  
     </View>
   )
 }

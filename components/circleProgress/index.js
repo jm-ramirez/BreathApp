@@ -8,6 +8,8 @@ import {
   Image
 } from 'react-native';
 import CircularProgress from 'react-native-circular-progress-indicator';
+import LogoDisabled from '../../assets/img/logo_disabled.png';
+import LogoEnabled from '../../assets/img/logo_enabled.png';
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
 import Play from '../../assets/img/Play.png';
 import Pause from '../../assets/img/Pause.png';
@@ -106,7 +108,8 @@ const CircleProgress = () => {
                     label={'3 min'}
                     active={sectionActive===2}
                 />
-            </View>
+            </View>    
+        <Image source={ running ? LogoEnabled : LogoDisabled } style={styles.imageView} fill="#fff" /> 
         </SafeAreaView>
     );
 };
